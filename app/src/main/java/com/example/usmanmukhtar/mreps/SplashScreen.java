@@ -11,7 +11,7 @@ import android.widget.ImageView;
 public class SplashScreen extends AppCompatActivity {
 
     ImageView logo;
-    Animation fromtop;
+//    Animation fromtop;
     Handler handler;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,10 +19,9 @@ public class SplashScreen extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
 
         logo = (ImageView) findViewById(R.id.imgLogo);
-        fromtop = AnimationUtils.loadAnimation(this, R.anim.from_top);
+//        fromtop = AnimationUtils.loadAnimation(this, R.anim.from_top);
 
-        logo.setAnimation(fromtop);
-
+//        logo.setAnimation(fromtop);
         handler=new Handler();
         handler.postDelayed(new Runnable() {
             @Override
