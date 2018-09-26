@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MREPS</string>
+
+    <string name="appname">Patient Survey</string>
 </resources>
